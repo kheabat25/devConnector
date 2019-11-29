@@ -40,7 +40,7 @@ router.post(
       }
 
       //Get users gravatar
-      const vatar = gravatar.url(email, {
+      const avatar = gravatar.url(email, {
         s: '200',
         r: 'pg',
         d: 'mm'
