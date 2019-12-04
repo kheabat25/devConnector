@@ -24,7 +24,6 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
     if (password !== password2) {
       setAlert('Passwords do not match', 'danger');
     } else {
-      setAlert('Register Successfully', 'success');
       register({ name, email, password });
       //  Sample of putting Login data to database
       /*
