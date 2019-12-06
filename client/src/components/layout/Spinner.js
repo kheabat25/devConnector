@@ -1,11 +1,11 @@
 // Load Gif
 import React, { Fragment } from 'react';
-import spinner from './spinner.gif';
+import Spinner from './spinner.gif';
 
 export default () => (
   <Fragment>
     <img
-      src={spinner}
+      src={Spinner}
       style={{ width: '200px', margin: 'auto', display: 'block' }}
       alt='Loading...'
     />
