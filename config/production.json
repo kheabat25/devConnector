@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://kheabat:kheabat@devconnector-xacjl.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "e7c0753c7cc790165ae4",
+  "githubSecret": "9dad375eded29b7548d733b000d8770da3be1a11"
+}
